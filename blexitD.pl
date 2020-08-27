@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# use this script to remove all externala and aliases
+# use this script to change DateTime to Epoc
 use strict;
 use warnings;
 use Getopt::Long;
