@@ -1,0 +1,2 @@
+PS - count lines
+PS M:\LastCheck> dir -Recurse *.csv | Get-Content | Measure-Object -Line
