@@ -1,2 +1,4 @@
 PS - count lines
 PS M:\LastCheck> dir -Recurse *.csv | Get-Content | Measure-Object -Line
+get unique list From
+PS M:\LastCheck> dir -Recurse *.llc | Get-Content |select-object  'From' | Sort -Descending -Unique
