@@ -1,3 +1,0 @@
-#DateTime
-#https://unix.stackexchange.com/questions/426976/converting-date-timestamp-from-12-hour-into-24-using-awk
-perl -i -pe 's{\b(\d{1,2})(:\d\d:\d\d) ([AP])M\b}{$1 + 12 * (($3 eq "P") - ($1 == 12)) . $2}ge' listRec2.csv
